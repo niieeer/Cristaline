@@ -1,0 +1,146 @@
+html {
+    font-family: 'Molengo', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+p {
+    text-align: justify;
+}
+
+.material-icons-outlined {
+    font-family: 'Material Icons';
+}
+
+.nav_footer {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    background-color: #3749b725;
+    height: 100px;
+    margin: 0;
+}
+
+.nav_footer li a {
+    color: #FB0034;
+}
+
+.nav_footer li:hover {
+    text-decoration: underline;
+    text-decoration-color: #FB0034;
+}
+
+.header {
+    display: flex;
+    background-color: #095e8c;
+    justify-content: space-evenly;
+    margin: -8px;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.link_items {
+    display: flex;
+}
+
+.nav_items {
+    margin-left: 20px;
+    list-style: none;
+    font-size: 35px;
+}
+
+.nav_items a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav_items a:hover {
+    text-decoration: overline;
+    font-size: 38px;
+}
+
+.nav_footer a {
+    text-decoration: none;
+}
+
+.nav_footer ul {
+    list-style: none;
+}
+
+#date_heure {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pereFondateur {
+    width: 250px;
+    height: 350px;
+    display: block;
+    margin: 8px;
+}
+
+.chef {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 44px;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    margin-bottom: 24px;
+    font-size: 30px;
+    box-shadow: 0px 0px 4px 2px #3b394725;
+    border-radius: 8px;
+}
+
+.chef_para {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.t_fondateur {
+    margin-left: 10%;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#Faucille {
+    margin-left: 50px;
+}
+
+#mosaic {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    background: linear-gradient(#FB0034, #F8C301);
+}
+
+main img {
+    width: 250px;
+    height: 300px;
+}
+
+;
